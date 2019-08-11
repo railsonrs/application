@@ -1,0 +1,85 @@
+<% provide :title, 'Quem é a comunidade' %>
+
+<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="breadcrumb">
+					<li><%= link_to 'Rails on RS', root_path %></li>
+					<li><%= link_to 'Quem é a comunidade', '' %></li>
+				</ul>
+
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="bold">Quem é a Comunidade</h1>
+						<h3 class="bold">Quem é a Comunidade?</h3>
+						<br>
+
+						<p>O Rails on RS é o conjunto  de todas as pessoas que participam
+						de alguma forma da comunidade: você que comparece aos eventos, que
+						escreve código, que comenta nas redes sociais, e que fala a respeito
+						da comunidade</p>
+						<br>
+
+						<p>Para que a comunidade esteja sempre ativa, existe uma parcela destes
+						membros que cuidam dos eventos, sites, projetos e redes sociais. Eles são
+						mais conhecidos como os "Evangelistas do Rails".</p>
+						<br>
+
+						<p>Quer participar mais da comunidade e não sabe como? Entre em contato com
+						um dos Evangelistas do Rails on RS e ajude a comunidade a continuar crescendo.</p>
+						<br>
+
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th></th>
+									<th>Nome</th>
+									<th>Twitter</th>
+									<th>Atuação</th>
+									<th>Organização</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><%= image_tag('', class: 'avatar', style: 'width: 64px; height: 64px; border-radius: 64px; background-color: #EEE;') %></td>
+									<td>Renato Rosa Franco</td>
+									<td><%= link_to "@renatorfranco18", "http://twitter.com/@renatorfranco18",
+									target: '_blank' %></td>
+									<td>Santiago, RS</td>
+									<td>Fundador</td>
+								</tr>
+								<tr>
+									<td><%= image_tag('', class: 'avatar', style: 'width: 64px; height: 64px; border-radius: 64px; background-color: #EEE;') %></td>
+									<td>Igor Madruga</td>
+									<td><%= link_to "@madruga_igor", "http://twitter.com/@madruga_igor", target: '_blank' %></td>
+									<td>Santiago, RS</td>
+									<td>Co-Fundador</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="col-md-12">
+						<div class="well">
+							<p class="text-center">
+								<span class='bold'>Disclaimer:</span> 
+								As contas de Twitter acima são contas pessoais e não representam a
+								opinião da comunidade ou do grupo como um todo. Utilize-se como forma de contato
+								para duvidas e esclarecimentos sobre a comunidade e seus eventos.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-12">
+						<div class="well">
+							<p class="text-center">
+								Acha que esse conteúdo possui erros ou poderia ser aperfeiçoado?
+								<u>Colabore!</u></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

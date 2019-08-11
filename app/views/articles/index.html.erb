@@ -1,0 +1,57 @@
+<% provide :title, 'Artigos' %>
+
+<section id="presenter" class="jumbotron">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="breadcrumb">
+							<li><%= link_to 'Rails on RS', root_path %></li>
+							<li>Grupo de desenvolvedores Rails do Rio Grande do Sul</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="bold">Artigos</h1>
+						<hr>
+					</div>
+					<div class="col-md-12">
+						<% for i in 1..12 %>
+							<div class="col-md-4 text-center">
+								<div class="panel panel-default padding" style="padding: 20px;">
+									<%= image_tag('', class: 'avatar', style: 'width: 64px; height: 64px; border-radius: 64px; background-color: #EEE;') %>
+									<h5 class='bold'>Renato Rosa Franco</h5>
+									<small>em 16/01/2019</small>
+									<h4 class='bold'><%= link_to 'A simple article', '' %></h4>
+								</div>
+							</div>
+						<% end %>
+					</div>
+
+					<div class="col-md-12">
+						<div class="col-md-12">
+							<div class="well">
+								<p class="text-center">
+									Acha que esse conteúdo possui erros ou 
+									poderia ser aperfeiçoado? <u>Colabore!</u></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
