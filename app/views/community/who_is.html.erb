@@ -44,7 +44,8 @@
 								<tr>
 									<td><%= image_tag('', class: 'avatar', style: 'width: 64px; height: 64px; border-radius: 64px; background-color: #EEE;') %></td>
 									<td>Renato Rosa Franco</td>
-									<td><%= link_to "@renatorfranco18", "http://twitter.com/@renatorfranco18",
+									<td> <i class="fab fa-twitter"></i> 
+										<%= link_to "@renatorfranco18", "http://twitter.com/@renatorfranco18",
 									target: '_blank' %></td>
 									<td>Santiago, RS</td>
 									<td>Fundador</td>
@@ -52,7 +53,8 @@
 								<tr>
 									<td><%= image_tag('', class: 'avatar', style: 'width: 64px; height: 64px; border-radius: 64px; background-color: #EEE;') %></td>
 									<td>Igor Madruga</td>
-									<td><%= link_to "@madruga_igor", "http://twitter.com/@madruga_igor", target: '_blank' %></td>
+									<td><i class="fab fa-twitter"></i>
+										<%= link_to "@madruga_igor", "http://twitter.com/@madruga_igor", target: '_blank' %></td>
 									<td>Santiago, RS</td>
 									<td>Co-Fundador</td>
 								</tr>
@@ -75,7 +77,7 @@
 						<div class="well">
 							<p class="text-center">
 								Acha que esse conteúdo possui erros ou poderia ser aperfeiçoado?
-								<u>Colabore!</u></p>
+								<u><%= link_to 'Colabore!', 'https://github.com/railsonrs', target: '_blank' %></u></p>
 						</div>
 					</div>
 				</div>
