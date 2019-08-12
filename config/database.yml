@@ -48,7 +48,9 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: railsonrs_production
-  username: railsonrs
-  password: <%= ENV['RAILSONRS_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  database: sample_postgres_production
+  pool: 5
+  username: postgres
+  password: 3223001Rf123#@
