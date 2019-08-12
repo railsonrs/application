@@ -16,7 +16,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Comunidade <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Comunidade <i class="fas fa-chevron-down"></i></a>
           <ul class="dropdown-menu">
             <li>
             	<%= link_to community_index_path do %>
@@ -40,12 +40,12 @@
         </li>
         <li><%= link_to 'Artigos', articles_path %></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos <i class="fas fa-chevron-down"></i></a>
           <ul class="dropdown-menu">
             <li>
             	<%= link_to '' do %>
             		<h5 class="bold">Eventos Rails on RS</h5>
-            		<p>Eventos e encontros no Rio Grande do Sulp.</p>
+            		<p>Eventos e encontros no Rio Grande do Sul.</p>
             	<% end %>
             </li>
             <li>
@@ -57,7 +57,7 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Como Contribuir <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Como Contribuir <i class="fas fa-chevron-down"></i></a>
           <ul class="dropdown-menu">
             <li>
             	<%= link_to contribute_index_path do %>
@@ -76,18 +76,28 @@
  					<% end %>
  				</li>
  				<li>
- 					<%= link_to '', target: '_blank' do %>
+ 					<%= link_to 'https://twitter.com/railsonrgs', target: '_blank' do %>
  						<i class="fab fa-twitter"></i>
  					<% end %>
  				</li>
  				<li>
- 					<%= link_to 'http://railsonrs.slack.com', target: '_blank' do %>
+ 					<%= link_to 'https://railsonrs.slack.com', target: '_blank' do %>
  						<i class="fab fa-slack"></i>
  					<% end %>
  				</li>
  				<li>
- 					<%= link_to 'http://linkedin.com/company/railsonrs', target: '_blank' do %>
- 						<i class="fab fa-linkedin-in"></i>
+ 					<%= link_to 'https://discord.gg/y6394Xk', target: '_blank' do %>
+ 						<i class="fab fa-discord"></i>
+ 					<% end %>
+ 				</li>
+ 				<li>
+ 					<%= link_to 'https://discord.gg/y6394Xk', target: '_blank' do %>
+ 						<i class="fab fa-youtube"></i>
+ 					<% end %>
+ 				</li>
+ 				<li>
+ 					<%= link_to 'https://linkedin.com/company/railsonrs', target: '_blank' do %>
+ 						<i class="fab fa-instagram"></i>
  					<% end %>
  				</li>
  				<li>
